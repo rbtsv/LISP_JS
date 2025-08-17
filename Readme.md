@@ -25,7 +25,7 @@ Paste the [one-file PEG grammar](./LISP_full.pegjs) in the left form, and your c
 
 ## 🧪 Example
 
-```lisp
+```scheme
 (define (square x) (* x x))
 (display (square 5)) ; 25
 
