@@ -1,0 +1,11 @@
+{
+  "name": "LISP_JS",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node run_LISP.js"
+  },
+  "dependencies": {
+    "peggy": "^5.0.2"
+  }
+}

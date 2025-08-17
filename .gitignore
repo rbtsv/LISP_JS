@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# VS Code / JetBrains IDEs
+.vscode/
+.idea/
+
+# OS / Editor garbage
+.DS_Store
+Thumbs.db
+
+# Logs / dumps
+*.log
+
+# Optional: compiled output
+dist/
+build/
+
+# PEG grammar backups (если случайно сохраняешь копии)
+*.pegjs~
+
+# Ignore test artifacts (если появятся)
+coverage/
+*.lcov
