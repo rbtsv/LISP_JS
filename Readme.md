@@ -50,7 +50,7 @@ npm install
 
 Build the parser (optional):
 
-We provide built parser in the repository, but you can modify the grammar and construct your own parser.
+The parser (parser.js) is already prebuilt, but you can regenerate it if you modify the grammar.
 
 ```bash
 node build_parser.js
@@ -94,8 +94,20 @@ LISP_JS/
 
 ---
 
+## 📚 References
+
+- [Structure and Interpretation of Computer Programs (SICP)](https://web.mit.edu/6.001/6.037/sicp.pdf)  
+ The `Newton.scm` example in this repo is adapted from SICP.  
+ Highly recommended if you're learning LISP or want to understand the foundations of (functional) programming .
+
+- [Theory and Realization of Programming Languages (lectures in Russian)](https://github.com/rbtsv/TRPL25)  
+  Авторский курс по теории языков программирования и интерпретации. Содержит материалы, примеры и ссылки для изучения.
+
+
+---
+
 ## 📜 License
 
 Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 Use it, fork it, break it, improve it.  
-A project for tinkerers and students who want to understand language internals.
+Built for tinkerers and students exploring the internals of programming languages.
